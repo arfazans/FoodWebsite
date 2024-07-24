@@ -276,7 +276,7 @@ flex-wrap: wrap;
 
 footer{
     height: 80vh;
-    background-color: #312015e0;
+    background-color: #000000e0;
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
