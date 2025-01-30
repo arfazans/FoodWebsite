@@ -11,6 +11,12 @@
     /* background-color: rgb(90, 84, 84); */
     
 }
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .navbar img{
     height: 60px;
@@ -27,11 +33,9 @@
     cursor: pointer;
 }
 .navbar a{
-   color: #ffffff;
+    color: white;
     text-decoration: none;
-    font-size: large;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;    
+    
 }
 .navbar img{
     position: fixed;
@@ -76,20 +80,18 @@ body {
     background: url(exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
- 
+
+
 }
 
 .hero_wrapper {
     color: white;
-    /* position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     /* transform translate for maintianing center including self */
 }
-
 .hero_wrapper h1{
     text-align: center;
     font-family: cursive;
@@ -134,10 +136,6 @@ h2{
     margin-top: 9px;
     cursor: pointer;
     box-shadow: 2px 2px 4px rgb(255, 255, 255);
-}
-.form_code button:hover {
-    background-color: #008080;
-    transition: 0.3s ease-in-out;
 }
 
 
@@ -329,21 +327,7 @@ footer h4{
     height: 254px;
     perspective: 1000px;
     padding: 15px 0 15px 0;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 1.5s ease-out forwards;
-
   }
-  @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
   
   .title {
     font-size: 1.5em;
